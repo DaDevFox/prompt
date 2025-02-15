@@ -3,6 +3,7 @@ package prompt
 import (
 	"github.com/DaDevFox/prompt/choose"
 	"github.com/DaDevFox/prompt/input"
+	"github.com/DaDevFox/prompt/input_choose"
 	"github.com/DaDevFox/prompt/multichoose"
 	"github.com/DaDevFox/prompt/write"
 )
@@ -38,6 +39,17 @@ func (p Prompt) MultiChoose(choices []string, opts ...multichoose.Option) ([]str
 		return nil, err
 	}
 	return m.(multichoose.Model).Data(), nil
+}
+
+// Input asks the user to enter a string.
+func (p Prompt) InputChoose(choices []string, opts ...input_choose.Option) (string, error) {
+	pm := input_choose.New(choices, opts...)
+
+	m, err := p.Run(*pm, append(p.teaProgramOpts, pm.TeaProgramOpts()...)...)
+	if err != nil {
+		return "", err
+	}
+	return m.(input.Model).Data(), nil
 }
 
 // Input asks the user to enter a string.
