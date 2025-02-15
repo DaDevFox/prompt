@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cqroot/prompt/constants"
+	"github.com/DaDevFox/prompt/constants"
 )
 
 type IsSelected func(int) bool

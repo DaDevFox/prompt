@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cqroot/prompt"
-	"github.com/cqroot/prompt/multichoose"
+	"github.com/DaDevFox/prompt"
+	"github.com/DaDevFox/prompt/multichoose"
 )
 
 func CheckErr(err error) {

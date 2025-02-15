@@ -3,7 +3,7 @@ package choose_test
 import (
 	"testing"
 
-	"github.com/cqroot/prompt/choose"
+	"github.com/DaDevFox/prompt/choose"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,7 +3,7 @@ package prompt
 import (
 	"strings"
 
-	"github.com/cqroot/prompt/constants"
+	"github.com/DaDevFox/prompt/constants"
 )
 
 type State int
