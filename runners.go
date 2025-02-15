@@ -49,7 +49,7 @@ func (p Prompt) InputChoose(choices []string, opts ...input_choose.Option) (stri
 	if err != nil {
 		return "", err
 	}
-	return m.(input.Model).Data(), nil
+	return m.(input_choose.Model).Data(), nil
 }
 
 // Input asks the user to enter a string.
