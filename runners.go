@@ -1,10 +1,10 @@
 package prompt
 
 import (
-	"github.com/cqroot/prompt/choose"
-	"github.com/cqroot/prompt/input"
-	"github.com/cqroot/prompt/multichoose"
-	"github.com/cqroot/prompt/write"
+	"github.com/DaDevFox/prompt/choose"
+	"github.com/DaDevFox/prompt/input"
+	"github.com/DaDevFox/prompt/multichoose"
+	"github.com/DaDevFox/prompt/write"
 )
 
 // Choose lets the user choose one of the given choices.

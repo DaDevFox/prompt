@@ -3,7 +3,7 @@ package choose
 import (
 	"strings"
 
-	"github.com/cqroot/prompt/constants"
+	"github.com/DaDevFox/prompt/constants"
 )
 
 type Theme func([]Choice, int) string

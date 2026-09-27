@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cqroot/prompt"
-	"github.com/cqroot/prompt/write"
+	"github.com/DaDevFox/prompt"
+	"github.com/DaDevFox/prompt/write"
 )
 
 var ErrContentTooShort = errors.New("content too short")

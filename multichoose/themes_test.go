@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/cqroot/prompt/multichoose"
+	"github.com/DaDevFox/prompt/multichoose"
 	"github.com/stretchr/testify/require"
 )
 

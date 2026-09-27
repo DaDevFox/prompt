@@ -8,8 +8,8 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/cqroot/prompt"
-	"github.com/cqroot/prompt/choose"
+	"github.com/DaDevFox/prompt"
+	"github.com/DaDevFox/prompt/choose"
 )
 
 func CheckErr(err error) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cqroot/prompt"
+	"github.com/DaDevFox/prompt"
 )
 
 func CheckErr(err error) {

@@ -1,4 +1,4 @@
-module github.com/cqroot/prompt
+module github.com/DaDevFox/prompt
 
 go 1.20
 

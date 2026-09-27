@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/cqroot/prompt/choose"
-	"github.com/cqroot/prompt/constants"
+	"github.com/DaDevFox/prompt/choose"
+	"github.com/DaDevFox/prompt/constants"
 	"github.com/stretchr/testify/require"
 )
 
